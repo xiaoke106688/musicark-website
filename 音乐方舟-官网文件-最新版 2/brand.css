@@ -1,0 +1,36 @@
+/* Music Ark identity: fused MA with over-ear headphones. */
+.brand{display:inline-flex;align-items:center;gap:11px;flex-shrink:0;letter-spacing:0;text-decoration:none}
+.ark-mark{display:flex;width:43px;height:37px;align-items:center;color:#101b2d;background:#edf2fa;border-radius:10px;padding:3px}
+.ark-mark svg{display:block;width:100%;height:auto}
+.ark-wordmark{display:flex;flex-direction:column;gap:4px;line-height:1}
+.ark-wordmark strong{font-size:17px;font-weight:650;letter-spacing:2px;white-space:nowrap}
+.ark-wordmark>span{font-size:7px;font-weight:550;letter-spacing:3.1px;color:#91a4bf;white-space:nowrap}
+footer .ark-mark{width:47px;height:40px;color:#a8bbd8}footer .ark-wordmark strong{font-size:16px}footer .ark-wordmark>span{font-size:7px;letter-spacing:2.8px}
+.mini-ark{display:inline-flex;width:24px;vertical-align:middle;margin-right:5px}.mini-ark svg{width:100%;height:auto}.app-logo{display:flex;align-items:center;white-space:nowrap}.app-logo b{font-size:9px}
+.download-app-icon svg{width:75%;height:auto}.device-screen>span.device-ark{width:48px;display:block;line-height:0}.device-ark svg{width:100%;height:auto}
+@media(max-width:800px){header .navcta{font-size:10px;padding-inline:14px}header nav{gap:22px}}
+@media(max-width:560px){header{gap:12px}header .brand{gap:7px}header .ark-mark{width:31px;height:29px}header .ark-wordmark strong{font-size:13px;letter-spacing:1px}header .ark-wordmark>span{font-size:5px;letter-spacing:2px}header nav{gap:12px}header nav a{font-size:10px}header nav a:nth-child(2){font-size:9px}header .navcta{padding:8px 11px;font-size:0}footer .brand{gap:9px}footer .ark-mark{width:36px}footer .ark-wordmark strong{font-size:14px}footer .ark-wordmark>span{font-size:6px;letter-spacing:2.5px}.app-logo b{font-size:6px}.mini-ark{width:17px;margin-right:3px}}
+@media(max-width:370px){header nav{gap:9px}header{gap:8px}.ark-wordmark strong{letter-spacing:0}}
+
+footer .ark-mark{color:#101b2d;background:#e3eaf5;border-radius:10px;padding:3px}.download-app-icon{background:#edf2fa;color:#101b2d}.mini-ark{color:#e9f0fc}.device-ark{color:#172940}
+
+/* Midnight blue and pale silver brand treatment. */
+header{background:#080d18ef}header .ark-mark,footer .ark-mark{background:transparent;color:#e5ecf7;border-radius:0;padding:0}header .ark-wordmark strong,footer .ark-wordmark strong{color:#e5ecf7}header .ark-wordmark>span,footer .ark-wordmark>span{color:#aebbd0}footer{background:#080d18}.download-app-icon{background:#080d18;color:#e5ecf7;border:1px solid #e5ecf71a;box-shadow:none}.mini-ark,.device-ark{color:#e5ecf7}.device-screen>span.device-ark{color:#e5ecf7}
+
+/* Selected concept 029: open MA strokes and compact ear cushions. */
+.ark-mark svg{overflow:visible}header .ark-mark{width:45px}footer .ark-mark{width:48px}.mini-ark{width:26px}@media(max-width:560px){header .ark-mark{width:33px}footer .ark-mark{width:38px}.mini-ark{width:18px}}
+
+/* Doubled 029 stroke weight; visible mark centered against the wordmark. */
+header .brand,footer .brand{align-items:center}
+header .ark-mark,footer .ark-mark{width:36.6px;height:30px;flex:0 0 36.6px;display:flex;align-items:center;justify-content:center}
+header .ark-mark svg,footer .ark-mark svg{display:block;width:100%;height:100%;overflow:visible}
+.ark-wordmark{justify-content:center}
+@media(max-width:560px){header .ark-mark{width:28px;height:23px;flex-basis:28px}footer .ark-mark{width:31.7px;height:26px;flex-basis:31.7px}}
+
+/* Icon centered beside the complete Chinese/English wordmark. */
+header .brand,footer .brand{display:inline-flex;align-items:center;gap:10px;padding:0}
+header .ark-wordmark,footer .ark-wordmark{display:flex;position:static;flex-direction:column;justify-content:center;align-items:flex-start;height:auto;gap:5px}
+header .ark-wordmark strong,footer .ark-wordmark strong{display:block;line-height:1}
+header .ark-wordmark>span,footer .ark-wordmark>span{display:block;position:static;line-height:1}
+header .ark-mark,footer .ark-mark{width:36.6px;height:30px;flex:0 0 36.6px}
+@media(max-width:560px){header .brand,footer .brand{gap:8px}header .ark-wordmark,footer .ark-wordmark{gap:4px}header .ark-mark{width:28px;height:23px;flex-basis:28px}footer .ark-mark{width:31.7px;height:26px;flex-basis:31.7px}}
